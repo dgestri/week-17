@@ -1,0 +1,48 @@
+.body {
+  background-color: #FFF5EC;
+}
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: #FFF5EC;
+  color: #E87979;
+  font-family: helvetica;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  color: #E87979;
+  font-family: helvetica;
+  font-weight: 700;
+}
+.sidemenu {
+float: left;
+}
+
+#row {
+  background-color: #FFF5EC;
+  flex-direction: row;
+  color: #E87979;
+  
+}
+.projectCard {
+  min-width: 25%;
+  max-width: 25%;
+  height: auto;
+  float: left;
+  padding: 20px;
+  justify-content: space-between;
+  flex-shrink: auto;
+}
+img {
+  width: 210px;
+  height: auto;
+}
+.footer {
+  color: #E87979;
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 10pt;
+}
